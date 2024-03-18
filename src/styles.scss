@@ -104,7 +104,7 @@ body {
     width: 100%;
     .fondo {
       color: $primary-color-white;
-      background-image: url("../src/shared/images/fondo.gif");
+      // background-image: url("https://i.pinimg.com/originals/1f/9c/10/1f9c10920abea2a2f69f9b7efbcaaf59.gif");
       background-size: 100%;
       background-size: cover;
       position: relative;
@@ -115,6 +115,8 @@ body {
         flex-direction: column;
         padding-top: 40px;
         padding-left: 10px;
+        top: 50px;
+        position: absolute;
           &--big{
             font-size: 32px;
           }
